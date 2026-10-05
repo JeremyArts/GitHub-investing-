@@ -1,8 +1,9 @@
 {
   "study": "Theme Lifecycle Study",
   "preregistration": "https://claude.ai/code/artifact/3ca3524f-5297-4e85-a870-983f8bb7452e",
-  "signed_off": false,
-  "signed_off_note": "Set to true only after Jeremy signs off on the pre-registration. Until then score.py refuses real data.",
+  "signed_off": true,
+  "signed_off_on": "2026-10-05",
+  "signed_off_note": "Jeremy signed off on the pre-registration, including the four rebuild gaps as proposed (AI entry Dec 2022; unpriceable entry (b) leaves H2; late listers join at the next yearly rebalance; 12 Trends terms). Rules are frozen; no returns had been seen.",
 
   "benchmark": "^SP500TR",
   "horizons_months": [12, 36, 60],
