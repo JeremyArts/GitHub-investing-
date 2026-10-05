@@ -1,0 +1,1351 @@
+{
+  "config_sha256": "39d659dd135adb601f6998a48cee6213a48fe8a3c0d99350667d27d2a31c0c15",
+  "synthetic": false,
+  "themes": [
+    {
+      "id": "internet",
+      "name": "Internet",
+      "flags": [
+        "^NDX is price-only (biased against theme ~1-3%/yr)"
+      ],
+      "a": {
+        "entry_month": "1995-08",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": 0.150493237952126,
+            "benchmark_return": 0.1872715449663196,
+            "excess": -0.0367783070141936,
+            "beats": false,
+            "max_drawdown": -0.08142810221120755
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 0.9771138013502931,
+            "benchmark_return": 0.8050556781248288,
+            "excess": 0.17205812322546432,
+            "beats": true,
+            "max_drawdown": -0.17202274244906768
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": 6.069698406315478,
+            "benchmark_return": 1.935785706506917,
+            "excess": 4.133912699808561,
+            "beats": true,
+            "max_drawdown": -0.24415617752678653
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "^NDX"
+        ]
+      },
+      "b": {
+        "entry_month": "1999-12",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": -0.3684446423294453,
+            "benchmark_return": -0.0910408761621635,
+            "excess": -0.2774037661672818,
+            "beats": false,
+            "max_drawdown": -0.46753405436085005
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": -0.7345158827734171,
+            "benchmark_return": -0.3760858620368761,
+            "excess": -0.35843002073654096,
+            "beats": false,
+            "max_drawdown": -0.8106979678411009
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": -0.5627847120931264,
+            "benchmark_return": -0.10975065445061749,
+            "excess": -0.4530340576425089,
+            "beats": false,
+            "max_drawdown": -0.8106979678411009
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "^NDX"
+        ]
+      },
+      "c": {
+        "entry_month": "2001-02",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": -0.2877399969820169,
+            "benchmark_return": -0.09513151179526624,
+            "excess": -0.19260848518675067,
+            "beats": false,
+            "max_drawdown": -0.3877494193836777
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": -0.22948978878404136,
+            "benchmark_return": -0.03087191236928788,
+            "excess": -0.19861787641475348,
+            "beats": false,
+            "max_drawdown": -0.5637419075610584
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": -0.12458602681501652,
+            "benchmark_return": 0.12382885163975077,
+            "excess": -0.24841487845476729,
+            "beats": false,
+            "max_drawdown": -0.5637419075610584
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "^NDX"
+        ]
+      }
+    },
+    {
+      "id": "biotech",
+      "name": "Biotech",
+      "flags": [
+        "^NBI is price-only (biased against theme ~1-3%/yr)"
+      ],
+      "a": {
+        "entry_month": "1989-06",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": 0.797687186377406,
+            "benchmark_return": 0.164869903122276,
+            "excess": 0.63281728325513,
+            "beats": true,
+            "max_drawdown": -0.18695700599809506
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 7.445080538341594,
+            "benchmark_return": 0.4188159074217117,
+            "excess": 7.026264630919883,
+            "beats": true,
+            "max_drawdown": -0.26072610199176693
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": 4.547314003004009,
+            "benchmark_return": 0.6348800523210418,
+            "excess": 3.912433950682967,
+            "beats": true,
+            "max_drawdown": -0.5230169017056674
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "AMGN"
+        ]
+      },
+      "b": {
+        "entry_month": "2000-12",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": 0.09909949242405425,
+            "benchmark_return": -0.11886011811927333,
+            "excess": 0.21795961054332758,
+            "beats": true,
+            "max_drawdown": -0.23376402216092262
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 0.11416075560607486,
+            "benchmark_return": -0.11670488485214492,
+            "excess": 0.23086564045821978,
+            "beats": true,
+            "max_drawdown": -0.3500083624595369
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": 0.581474771920548,
+            "benchmark_return": 0.027523006483970214,
+            "excess": 0.5539517654365778,
+            "beats": true,
+            "max_drawdown": -0.3500083624595369
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "AMGN",
+          "BIIB",
+          "^NBI",
+          "GILD"
+        ]
+      },
+      "c": {
+        "entry_month": "1994-06",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": 0.9116062864764047,
+            "benchmark_return": 0.26069290954431446,
+            "excess": 0.6509133769320903,
+            "beats": true,
+            "max_drawdown": -0.06012495719613742
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 3.2565320953015995,
+            "benchmark_return": 1.139663944196685,
+            "excess": 2.1168681511049146,
+            "beats": true,
+            "max_drawdown": -0.293294536093896
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": 8.526950345002492,
+            "benchmark_return": 2.4187918139335065,
+            "excess": 6.108158531068986,
+            "beats": true,
+            "max_drawdown": -0.37662837908307245
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "AMGN",
+          "BIIB",
+          "^NBI",
+          "GILD"
+        ]
+      }
+    },
+    {
+      "id": "china",
+      "name": "China",
+      "flags": [
+        "^HSI is price-only (biased against theme ~1-3%/yr)"
+      ],
+      "a": {
+        "entry_month": "2001-12",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": -0.13671875248970955,
+            "benchmark_return": -0.2210033052133339,
+            "excess": 0.08428455272362434,
+            "beats": true,
+            "max_drawdown": -0.21094613829234798
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 0.27937593163506946,
+            "benchmark_return": 0.11153323113179803,
+            "excess": 0.16784270050327144,
+            "beats": true,
+            "max_drawdown": -0.24902021672019647
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": 0.8746720640002505,
+            "benchmark_return": 0.3503131040444001,
+            "excess": 0.5243589599558505,
+            "beats": true,
+            "max_drawdown": -0.24902021672019647
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "^HSI"
+        ]
+      },
+      "b": {
+        "entry_month": "2015-08",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": 0.11756760276525391,
+            "benchmark_return": 0.12553166402035099,
+            "excess": -0.007964061255097077,
+            "beats": false,
+            "max_drawdown": -0.15583495087001897
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 0.33301921635152243,
+            "benchmark_return": 0.5654715030219217,
+            "excess": -0.2324522866703993,
+            "beats": false,
+            "max_drawdown": -0.15583495087001897
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": 0.1253339874262016,
+            "benchmark_return": 0.9646547465085706,
+            "excess": -0.839320759082369,
+            "beats": false,
+            "max_drawdown": -0.301812797766423
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "^HSI"
+        ]
+      },
+      "c": {
+        "entry_month": "2008-09",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": 0.5572613042104968,
+            "benchmark_return": -0.06907553297558988,
+            "excess": 0.6263368371860867,
+            "beats": true,
+            "max_drawdown": -0.10953343496610968
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 0.422101692697064,
+            "benchmark_return": 0.03725615643761171,
+            "excess": 0.3848455362594523,
+            "beats": true,
+            "max_drawdown": -0.2583554376657825
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": 0.6613155919937461,
+            "benchmark_return": 0.6117522058617151,
+            "excess": 0.04956338613203104,
+            "beats": true,
+            "max_drawdown": -0.2583554376657825
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "^HSI"
+        ]
+      }
+    },
+    {
+      "id": "clean1",
+      "name": "Clean energy 1",
+      "flags": [
+        "Late entry at PBW launch: nothing tradable in free data in 2004; flagged"
+      ],
+      "a": {
+        "entry_month": "2005-03",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": 0.47499989016995814,
+            "benchmark_return": 0.11726455855654372,
+            "excess": 0.3577353316134144,
+            "beats": true,
+            "max_drawdown": -0.12598857259721685
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 0.3646402812959588,
+            "benchmark_return": 0.18600247857726315,
+            "excess": 0.17863780271869567,
+            "beats": true,
+            "max_drawdown": -0.2921632274841276
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": -0.3065401146595853,
+            "benchmark_return": 0.09971660033257046,
+            "excess": -0.40625671499215577,
+            "beats": false,
+            "max_drawdown": -0.7641748093886223
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "PBW"
+        ]
+      },
+      "b": {
+        "status": "no trigger",
+        "horizons": {}
+      },
+      "c": {
+        "entry_month": "2008-10",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": -0.021254990391041395,
+            "benchmark_return": 0.09804945707122048,
+            "excess": -0.11930444746226188,
+            "beats": false,
+            "max_drawdown": -0.33906883270366894
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": -0.3813181040486655,
+            "benchmark_return": 0.3828745795584627,
+            "excess": -0.7641926836071282,
+            "beats": false,
+            "max_drawdown": -0.4977603912769646
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": -0.30267207418198283,
+            "benchmark_return": 1.026129718410965,
+            "excess": -1.3288017925929478,
+            "beats": false,
+            "max_drawdown": -0.6319992694571447
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "PBW"
+        ]
+      }
+    },
+    {
+      "id": "smartphones",
+      "name": "Smartphones",
+      "flags": [
+        "PALM missing (survivorship)"
+      ],
+      "a": {
+        "entry_month": "2007-01",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": 0.83380698939526,
+            "benchmark_return": -0.023112054586007513,
+            "excess": 0.8569190439812675,
+            "beats": true,
+            "max_drawdown": -0.21145652900537182
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 0.43886293983096536,
+            "benchmark_return": -0.20178079786556402,
+            "excess": 0.6406437376965294,
+            "beats": true,
+            "max_drawdown": -0.6539796687695485
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": 0.19896146497934075,
+            "benchmark_return": 0.016447442969604875,
+            "excess": 0.18251402200973588,
+            "beats": true,
+            "max_drawdown": -0.6539796687695485
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "AAPL",
+          "NOK",
+          "BB"
+        ]
+      },
+      "b": {
+        "status": "no trigger",
+        "horizons": {}
+      },
+      "c": {
+        "entry_month": "2008-10",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": 0.2597080014979056,
+            "benchmark_return": 0.09804945707122048,
+            "excess": 0.16165854442668515,
+            "beats": true,
+            "max_drawdown": -0.2537715656257018
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 0.1453585202303913,
+            "benchmark_return": 0.3828745795584627,
+            "excess": -0.2375160593280714,
+            "beats": false,
+            "max_drawdown": -0.32664413819903504
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": 0.3903856993220507,
+            "benchmark_return": 1.026129718410965,
+            "excess": -0.6357440190889143,
+            "beats": false,
+            "max_drawdown": -0.4795795107787848
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "AAPL",
+          "NOK",
+          "BB"
+        ]
+      }
+    },
+    {
+      "id": "cloud",
+      "name": "Cloud",
+      "flags": [],
+      "a": {
+        "entry_month": "2006-03",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": 0.13394082235109428,
+            "benchmark_return": 0.11829952105188268,
+            "excess": 0.015641301299211596,
+            "beats": true,
+            "max_drawdown": -0.2782442932715796
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 0.42183422408629423,
+            "benchmark_return": -0.34279093146228923,
+            "excess": 0.7646251555485835,
+            "beats": true,
+            "max_drawdown": -0.546829489819967
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": 3.5743651886944985,
+            "benchmark_return": 0.13828540284450175,
+            "excess": 3.436079785849997,
+            "beats": true,
+            "max_drawdown": -0.546829489819967
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "CRM",
+          "AMZN"
+        ]
+      },
+      "b": {
+        "entry_month": "2008-06",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": -0.1498492939919911,
+            "benchmark_return": -0.2621402417839126,
+            "excess": 0.1122909477919215,
+            "beats": true,
+            "max_drawdown": -0.4991186127541902
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 1.7252727629741291,
+            "benchmark_return": 0.1034669202289511,
+            "excess": 1.621805842745178,
+            "beats": true,
+            "max_drawdown": -0.4991186127541902
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": 2.232926412416927,
+            "benchmark_return": 0.40324984037185385,
+            "excess": 1.829676572045073,
+            "beats": true,
+            "max_drawdown": -0.4991186127541902
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "CRM",
+          "AMZN"
+        ]
+      },
+      "c": {
+        "entry_month": "2008-11",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": 1.686490418315001,
+            "benchmark_return": 0.2538812436451787,
+            "excess": 1.4326091746698222,
+            "beats": true,
+            "max_drawdown": -0.06773931595614935
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 3.5917909730148487,
+            "benchmark_return": 0.48647821370879574,
+            "excess": 3.105312759306053,
+            "beats": true,
+            "max_drawdown": -0.1564881577011762
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": 7.745051977900344,
+            "benchmark_return": 1.2492625966092055,
+            "excess": 6.4957893812911385,
+            "beats": true,
+            "max_drawdown": -0.25898167836403807
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "CRM",
+          "AMZN"
+        ]
+      }
+    },
+    {
+      "id": "shale",
+      "name": "Shale",
+      "flags": [],
+      "a": {
+        "entry_month": "2008-04",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": -0.4722602385408802,
+            "benchmark_return": -0.35312969719885867,
+            "excess": -0.1191305413420215,
+            "beats": false,
+            "max_drawdown": -0.6283369323464523
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 0.106960506255948,
+            "benchmark_return": 0.05279601354264707,
+            "excess": 0.05416449271330093,
+            "beats": true,
+            "max_drawdown": -0.6283369323464523
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": 0.016738048800925442,
+            "benchmark_return": 0.2891563847570755,
+            "excess": -0.27241833595615006,
+            "beats": false,
+            "max_drawdown": -0.6283369323464523
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "XOP"
+        ]
+      },
+      "b": {
+        "entry_month": "2011-02",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": -0.028184660571700215,
+            "benchmark_return": 0.051229558928405305,
+            "excess": -0.07941421950010552,
+            "beats": false,
+            "max_drawdown": -0.3333170084700826
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 0.16618034852229946,
+            "benchmark_return": 0.495333948224586,
+            "excess": -0.3291535997022865,
+            "beats": false,
+            "max_drawdown": -0.3333170084700826
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": -0.5768912222248782,
+            "benchmark_return": 0.620272041937372,
+            "excess": -1.19716326416225,
+            "beats": false,
+            "max_drawdown": -0.6938954754974525
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "XOP"
+        ]
+      },
+      "c": {
+        "entry_month": "2008-10",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": 0.1408330489230083,
+            "benchmark_return": 0.09804945707122048,
+            "excess": 0.04278359185178782,
+            "beats": true,
+            "max_drawdown": -0.23298494915334367
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 0.6197760471840423,
+            "benchmark_return": 0.3828745795584627,
+            "excess": 0.23690146762557962,
+            "beats": true,
+            "max_drawdown": -0.3333170084700827
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": 1.1418625404268963,
+            "benchmark_return": 1.026129718410965,
+            "excess": 0.11573282201593127,
+            "beats": true,
+            "max_drawdown": -0.3333170084700827
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "XOP"
+        ]
+      }
+    },
+    {
+      "id": "evs",
+      "name": "EVs",
+      "flags": [],
+      "a": {
+        "entry_month": "2010-06",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": 0.22240846480806775,
+            "benchmark_return": 0.3069150712353794,
+            "excess": -0.08450660642731167,
+            "beats": false,
+            "max_drawdown": -0.3238039279954221
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 1.35551545400519,
+            "benchmark_return": 0.6619694994663787,
+            "excess": 0.6935459545388112,
+            "beats": true,
+            "max_drawdown": -0.3730200573916195
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": 2.996767186832724,
+            "benchmark_return": 1.2246871504737968,
+            "excess": 1.7720800363589273,
+            "beats": true,
+            "max_drawdown": -0.3730200573916195
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "TSLA"
+        ]
+      },
+      "b": {
+        "status": "no trigger",
+        "horizons": {}
+      },
+      "c": {
+        "entry_month": "2022-09",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": -0.3095667627486417,
+            "benchmark_return": 0.21617385292145497,
+            "excess": -0.5257406156700967,
+            "beats": false,
+            "max_drawdown": -0.38341918025895094
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": -0.3299182892155529,
+            "benchmark_return": 0.9500889814042319,
+            "excess": -1.2800072706197847,
+            "beats": false,
+            "max_drawdown": -0.5804194197191139
+          },
+          "60": {
+            "status": "incomplete"
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "TSLA",
+          "LIT",
+          "NIO",
+          "LCID"
+        ]
+      }
+    },
+    {
+      "id": "crypto",
+      "name": "Crypto",
+      "flags": [],
+      "a": {
+        "status": "excluded",
+        "horizons": {}
+      },
+      "b": {
+        "entry_month": "2017-06",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": 1.5813836334147222,
+            "benchmark_return": 0.14374059168079922,
+            "excess": 1.437643041733923,
+            "beats": true,
+            "max_drawdown": -0.547625114909789
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 2.683426920044746,
+            "benchmark_return": 0.35767023219546523,
+            "excess": 2.325756687849281,
+            "beats": true,
+            "max_drawdown": -0.7557435061741203
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": 6.9750108276113405,
+            "benchmark_return": 0.7085966897328237,
+            "excess": 6.266414137878517,
+            "beats": true,
+            "max_drawdown": -0.7557435061741203
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "BTC-USD"
+        ]
+      },
+      "c": {
+        "entry_month": "2018-03",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": -0.4112874794607314,
+            "benchmark_return": 0.09496462049443055,
+            "excess": -0.506252099955162,
+            "beats": false,
+            "max_drawdown": -0.6258022739236444
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 7.448925271196767,
+            "benchmark_return": 0.5925339224081339,
+            "excess": 6.856391348788634,
+            "beats": true,
+            "max_drawdown": -0.6258022739236444
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": 3.0837976250734416,
+            "benchmark_return": 0.6993634454533038,
+            "excess": 2.384434179620138,
+            "beats": true,
+            "max_drawdown": -0.7301406140140823
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "BTC-USD"
+        ]
+      }
+    },
+    {
+      "id": "printing3d",
+      "name": "3D printing",
+      "flags": [],
+      "a": {
+        "entry_month": "2012-04",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": 0.7834099384622646,
+            "benchmark_return": 0.1689147283687571,
+            "excess": 0.6144952100935075,
+            "beats": true,
+            "max_drawdown": -0.20715657685125377
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": -0.017411250084539698,
+            "benchmark_return": 0.5905226227970519,
+            "excess": -0.6079338728815916,
+            "beats": false,
+            "max_drawdown": -0.72806113002463
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": -0.36372530628230604,
+            "benchmark_return": 0.8981460667343202,
+            "excess": -1.2618713730166262,
+            "beats": false,
+            "max_drawdown": -0.8974113779167631
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "DDD",
+          "SSYS"
+        ]
+      },
+      "b": {
+        "entry_month": "2013-03",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": 0.6320381910607384,
+            "benchmark_return": 0.2185736540008152,
+            "excess": 0.41346453705992325,
+            "beats": true,
+            "max_drawdown": -0.30511923449538225
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": -0.5861971184601398,
+            "benchmark_return": 0.39820943273584586,
+            "excess": -0.9844065511959856,
+            "beats": false,
+            "max_drawdown": -0.8996668293315445
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": -0.6800706714552207,
+            "benchmark_return": 0.8675438530775925,
+            "excess": -1.5476145245328132,
+            "beats": false,
+            "max_drawdown": -0.8996668293315445
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "DDD",
+          "SSYS"
+        ]
+      },
+      "c": {
+        "entry_month": "2014-12",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": -0.7265540279747964,
+            "benchmark_return": 0.013837640885860925,
+            "excess": -0.7403916688606573,
+            "beats": false,
+            "max_drawdown": -0.7265540279747964
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": -0.7164461801378381,
+            "benchmark_return": 0.38290033709365767,
+            "excess": -1.0993465172314958,
+            "beats": false,
+            "max_drawdown": -0.7790615302351398
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": -0.7076025678768535,
+            "benchmark_return": 0.7386057149311778,
+            "excess": -1.4462082828080312,
+            "beats": false,
+            "max_drawdown": -0.7790615302351398
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "DDD",
+          "SSYS"
+        ]
+      }
+    },
+    {
+      "id": "cannabis",
+      "name": "Cannabis",
+      "flags": [],
+      "a": {
+        "entry_month": "2014-01",
+        "horizons": {},
+        "status": "unpriceable"
+      },
+      "b": {
+        "status": "no trigger",
+        "horizons": {}
+      },
+      "c": {
+        "status": "no crash",
+        "horizons": {}
+      }
+    },
+    {
+      "id": "metaverse",
+      "name": "Metaverse/VR",
+      "flags": [
+        "weak proxy"
+      ],
+      "a": {
+        "entry_month": "2014-03",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": 0.36487385069553957,
+            "benchmark_return": 0.12731705979905095,
+            "excess": 0.23755679089648862,
+            "beats": true,
+            "max_drawdown": -0.05123972789163378
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 1.3580673841783488,
+            "benchmark_return": 0.3444516377697264,
+            "excess": 1.0136157464086224,
+            "beats": true,
+            "max_drawdown": -0.12168856843135212
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": 1.7670985260402245,
+            "benchmark_return": 0.6781049217895241,
+            "excess": 1.0889936042507005,
+            "beats": true,
+            "max_drawdown": -0.3253910571166869
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "META"
+        ]
+      },
+      "b": {
+        "entry_month": "2016-04",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": 0.2778531778271187,
+            "benchmark_return": 0.1791838139168065,
+            "excess": 0.09866936391031222,
+            "beats": true,
+            "max_drawdown": -0.12168856843135223
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 0.6448373370038945,
+            "benchmark_return": 0.5158470103191177,
+            "excess": 0.12899032668477672,
+            "beats": true,
+            "max_drawdown": -0.3253910571166869
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": 1.7647553835045655,
+            "benchmark_return": 1.2319625161216594,
+            "excess": 0.5327928673829061,
+            "beats": true,
+            "max_drawdown": -0.3253910571166869
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "META"
+        ]
+      },
+      "c": {
+        "entry_month": "2022-04",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": -0.07786764690387271,
+            "benchmark_return": 0.02664235174956242,
+            "excess": -0.10450999865343513,
+            "beats": false,
+            "max_drawdown": -0.3468850762286446
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 0.5256448527321738,
+            "benchmark_return": 0.4116227624455806,
+            "excess": 0.11402209028659316,
+            "beats": true,
+            "max_drawdown": -0.3468850762286446
+          },
+          "60": {
+            "status": "incomplete"
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "META",
+          "U",
+          "RBLX"
+        ]
+      }
+    },
+    {
+      "id": "clean2",
+      "name": "Clean energy 2",
+      "flags": [],
+      "a": {
+        "entry_month": "2019-12",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": 1.8789261078015542,
+            "benchmark_return": 0.18398831564768447,
+            "excess": 1.6949377921538697,
+            "beats": true,
+            "max_drawdown": -0.27567594634570713
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 1.0538288881059827,
+            "benchmark_return": 0.24787257004714225,
+            "excess": 0.8059563180588405,
+            "beats": true,
+            "max_drawdown": -0.38498050190854594
+          },
+          "60": {
+            "status": "ok",
+            "theme_return": 0.07232866645134761,
+            "benchmark_return": 0.9701964973020205,
+            "excess": -0.8978678308506729,
+            "beats": false,
+            "max_drawdown": -0.6474355098752591
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "ICLN",
+          "TAN"
+        ]
+      },
+      "b": {
+        "status": "no trigger",
+        "horizons": {}
+      },
+      "c": {
+        "entry_month": "2023-09",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": -0.07369046805672275,
+            "benchmark_return": 0.36351514078757896,
+            "excess": -0.4372056088443017,
+            "beats": false,
+            "max_drawdown": -0.19622400066023904
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 0.026056315727625234,
+            "benchmark_return": 0.8558334852379355,
+            "excess": -0.8297771695103102,
+            "beats": false,
+            "max_drawdown": -0.3527265978612766
+          },
+          "60": {
+            "status": "incomplete"
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "ICLN",
+          "TAN"
+        ]
+      }
+    },
+    {
+      "id": "ai",
+      "name": "AI (live, scored separately)",
+      "flags": [],
+      "a": {
+        "entry_month": "2022-12",
+        "horizons": {
+          "12": {
+            "status": "ok",
+            "theme_return": 1.2259314089384965,
+            "benchmark_return": 0.2628765952467029,
+            "excess": 0.9630548136917936,
+            "beats": true,
+            "max_drawdown": -0.13830172087535564
+          },
+          "36": {
+            "status": "ok",
+            "theme_return": 4.551499722096727,
+            "benchmark_return": 0.8611412247661518,
+            "excess": 3.690358497330575,
+            "beats": true,
+            "max_drawdown": -0.1387498646826627
+          },
+          "60": {
+            "status": "incomplete"
+          }
+        },
+        "status": "ok",
+        "members_at_entry": [
+          "NVDA",
+          "SMH",
+          "AIQ"
+        ]
+      },
+      "b": {
+        "status": "no trigger",
+        "horizons": {}
+      },
+      "c": {
+        "status": "no crash",
+        "horizons": {}
+      }
+    }
+  ],
+  "hypotheses": {
+    "H1": {
+      "n": 11,
+      "support": 7,
+      "against": 4,
+      "incomplete": 0,
+      "pass_bar": 9,
+      "pass_bar_p": 0.03271484375,
+      "verdict": "inconclusive",
+      "themes": [
+        [
+          "internet",
+          "support"
+        ],
+        [
+          "biotech",
+          "support"
+        ],
+        [
+          "china",
+          "support"
+        ],
+        [
+          "clean1",
+          "against"
+        ],
+        [
+          "smartphones",
+          "support"
+        ],
+        [
+          "cloud",
+          "support"
+        ],
+        [
+          "shale",
+          "against"
+        ],
+        [
+          "evs",
+          "support"
+        ],
+        [
+          "printing3d",
+          "against"
+        ],
+        [
+          "metaverse",
+          "support"
+        ],
+        [
+          "clean2",
+          "against"
+        ]
+      ]
+    },
+    "H2": {
+      "n": 13,
+      "support": 4,
+      "against": 9,
+      "incomplete": 0,
+      "pass_bar": 10,
+      "pass_bar_p": 0.046142578125,
+      "verdict": "inconclusive",
+      "themes": [
+        [
+          "internet",
+          "support"
+        ],
+        [
+          "biotech",
+          "against"
+        ],
+        [
+          "china",
+          "support"
+        ],
+        [
+          "clean1",
+          "against"
+        ],
+        [
+          "smartphones",
+          "against"
+        ],
+        [
+          "cloud",
+          "against"
+        ],
+        [
+          "shale",
+          "support"
+        ],
+        [
+          "evs",
+          "against"
+        ],
+        [
+          "crypto",
+          "against"
+        ],
+        [
+          "printing3d",
+          "support"
+        ],
+        [
+          "cannabis",
+          "against"
+        ],
+        [
+          "metaverse",
+          "against"
+        ],
+        [
+          "clean2",
+          "against"
+        ]
+      ]
+    },
+    "H3": {
+      "exploratory": true
+    }
+  },
+  "share_beating_benchmark": {
+    "a_12": {
+      "beat": 8,
+      "of": 11
+    },
+    "a_36": {
+      "beat": 10,
+      "of": 11
+    },
+    "a_60": {
+      "beat": 7,
+      "of": 11
+    },
+    "b_12": {
+      "beat": 5,
+      "of": 8
+    },
+    "b_36": {
+      "beat": 4,
+      "of": 8
+    },
+    "b_60": {
+      "beat": 4,
+      "of": 8
+    },
+    "c_12": {
+      "beat": 5,
+      "of": 12
+    },
+    "c_36": {
+      "beat": 6,
+      "of": 12
+    },
+    "c_60": {
+      "beat": 5,
+      "of": 9
+    }
+  }
+}
