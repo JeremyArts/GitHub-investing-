@@ -1,0 +1,117 @@
+{
+  "study": "Theme Lifecycle Study",
+  "preregistration": "https://claude.ai/code/artifact/3ca3524f-5297-4e85-a870-983f8bb7452e",
+  "signed_off": false,
+  "signed_off_note": "Set to true only after Jeremy signs off on the pre-registration. Until then score.py refuses real data.",
+
+  "benchmark": "^SP500TR",
+  "horizons_months": [12, 36, 60],
+  "crash_threshold": 0.5,
+  "rebalance_every_months": 12,
+  "alpha": 0.05,
+
+  "trends": {
+    "multiple": 3.0,
+    "trailing_months": 24,
+    "confirm_months": 2,
+    "min_trailing_avg": 1.0,
+    "less_than_one_value": 0.5
+  },
+
+  "hypotheses": {
+    "H1": {"entry": "a", "horizon": 60, "support": "beats", "exclude": ["ai"]},
+    "H2": {"entry": "b", "horizon": 36, "support": "trails", "exclude": ["ai"], "no_trigger_counts_against": true},
+    "H3": {"entry": "c", "horizon": null, "support": null, "exclude": ["ai"], "exploratory": true}
+  },
+
+  "price_overrides": {
+    "PALM": {"cash_from": "2010-07", "price": 5.70, "source": "https://investor.hp.com/news-events/news/news-details/2010/HP-Completes-Palm-Acquisition/default.aspx"}
+  },
+
+  "price_only_proxies": ["^NDX", "^NBI", "^HSI"],
+
+  "themes": [
+    {"id": "internet", "n": 1, "name": "Internet",
+     "catalyst": "1995-08-09", "catalyst_event": "Netscape IPO",
+     "members": ["^NDX"],
+     "trends_term": null, "attention_fixed_month": "1999-12",
+     "attention_note": "Record tech IPO year 1999 (370 IPOs), entry Dec 31, 1999"},
+
+    {"id": "biotech", "n": 2, "name": "Biotech",
+     "catalyst": "1989-06-01", "catalyst_event": "Amgen Epogen approved",
+     "members": ["AMGN", "BIIB", "^NBI", "GILD"],
+     "member_note": "AMGN + BIIB at entry; ^NBI (Nov 1993) and GILD (1992) join at the first yearly rebalance after they trade",
+     "trends_term": null, "attention_fixed_month": "2000-12",
+     "attention_note": "Record life-science IPO year 2000 (50 IPOs), entry Dec 29, 2000"},
+
+    {"id": "china", "n": 3, "name": "China",
+     "catalyst": "2001-12-11", "catalyst_event": "WTO entry",
+     "members": ["^HSI"],
+     "member_note": "Hang Seng only (FXI starts Oct 2004)",
+     "trends_term": "China stocks"},
+
+    {"id": "clean1", "n": 4, "name": "Clean energy 1",
+     "catalyst": "2004-01-01", "catalyst_event": "German solar feed-in tariff boost in force",
+     "entry_a_month": "2005-03",
+     "entry_a_note": "Late entry at PBW launch: nothing tradable in free data in 2004; flagged",
+     "members": ["PBW"],
+     "trends_term": "solar energy"},
+
+    {"id": "smartphones", "n": 5, "name": "Smartphones",
+     "catalyst": "2007-01-09", "catalyst_event": "iPhone unveiled",
+     "members": ["AAPL", "NOK", "BB", "PALM"],
+     "trends_term": "smartphone"},
+
+    {"id": "cloud", "n": 6, "name": "Cloud",
+     "catalyst": "2006-03-14", "catalyst_event": "AWS S3 launch",
+     "members": ["CRM", "AMZN"],
+     "member_note": "CRM + AMZN only (SKYY starts 2011)",
+     "trends_term": "cloud computing"},
+
+    {"id": "shale", "n": 7, "name": "Shale",
+     "catalyst": "2008-04-10", "catalyst_event": "USGS Bakken assessment",
+     "members": ["XOP"],
+     "trends_term": "fracking"},
+
+    {"id": "evs", "n": 8, "name": "EVs",
+     "catalyst": "2010-06-29", "catalyst_event": "Tesla IPO",
+     "members": ["TSLA", "LIT", "NIO", "LCID"],
+     "member_note": "TSLA at entry; LIT, NIO, LCID join at the first yearly rebalance after they trade",
+     "trends_term": "electric car"},
+
+    {"id": "crypto", "n": 9, "name": "Crypto",
+     "catalyst": null, "catalyst_event": "None inside the data (BTC file starts Sep 2014)",
+     "members": ["BTC-USD"],
+     "entry_a_excluded": true,
+     "trends_term": "bitcoin",
+     "attention_floor_month": "2014-09"},
+
+    {"id": "printing3d", "n": 10, "name": "3D printing",
+     "catalyst": "2012-04-16", "catalyst_event": "Stratasys-Objet merger announced",
+     "members": ["DDD", "SSYS"],
+     "trends_term": "3D printing"},
+
+    {"id": "cannabis", "n": 11, "name": "Cannabis",
+     "catalyst": "2014-01-01", "catalyst_event": "Colorado legal sales",
+     "members": ["MJ", "CGC", "TLRY", "ACB"],
+     "member_note": "Only what traded at each date; if nothing traded in Jan 2014, entry (a) is unpriceable and Cannabis leaves H1",
+     "trends_term": "cannabis"},
+
+    {"id": "metaverse", "n": 12, "name": "Metaverse/VR",
+     "catalyst": "2014-03-25", "catalyst_event": "Facebook buys Oculus",
+     "members": ["META", "U", "RBLX"],
+     "member_note": "META alone at entry (weak proxy, flagged); U, RBLX join after they list",
+     "weak_proxy": true,
+     "trends_term": "virtual reality"},
+
+    {"id": "clean2", "n": 13, "name": "Clean energy 2",
+     "catalyst": "2019-12-11", "catalyst_event": "European Green Deal presented",
+     "members": ["ICLN", "TAN"],
+     "trends_term": "clean energy"},
+
+    {"id": "ai", "n": null, "name": "AI (live, scored separately)",
+     "catalyst": "2022-11-30", "catalyst_event": "ChatGPT launch",
+     "members": ["NVDA", "SMH", "AIQ"],
+     "trends_term": "artificial intelligence"}
+  ]
+}
