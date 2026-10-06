@@ -30,3 +30,12 @@ Per episode: buy dates and prices, tranches filled, exit date or still holding, 
 allocation, months underwater, final value. Compared with buying all 4 tranches at buy 1 (same
 exit) and with the S&P 500 total return over the same months. Shown in dollars for a $2,000 and
 $3,000 allocation (20–30% of a ~$10k Roth).
+
+## Amendment 1 (2026-10-06, after the first run — disclosed)
+As first written, "highest SOXL monthly close before buy 1" included the synthetic history, so every
+target was the synthetic Feb 2000 peak (23,294 vs prices of 1–200), which no trade could reach.
+That does not match the plan: the SOXL chart a trader sees starts in Mar 2010. Amendment: for buys
+from Apr 2010 on, the target is the highest close on the real SOXL chart; earlier starts keep the
+synthetic history (no chart existed). Both versions are reported in results.json.
+Also added after the first run, as a reporting view only: the plan started fresh at each signal that
+comes 6+ months after the previous one.
