@@ -91,14 +91,15 @@ def spliced_daily(sox, irx, soxl):
 
 
 def monthly(daily, volume_by_month):
-    months = {}
+    months, prev_close = {}, None
     for d, h, l, c in daily:
         m = d[:7]
         if m not in months:
-            months[m] = {"month": m, "high": h, "low": l, "close": c}
+            months[m] = {"month": m, "open": prev_close if prev_close is not None else c, "high": h, "low": l, "close": c}
         else:
             b = months[m]
             b["high"], b["low"], b["close"] = max(b["high"], h), min(b["low"], l), c
+        prev_close = c
     current = date.today().strftime("%Y-%m")  # drop the incomplete month
     bars = [months[m] for m in sorted(months) if m < current]
     for b in bars:
@@ -138,7 +139,8 @@ def months_apart(a, b):
     return (int(b[:4]) - int(a[:4])) * 12 + int(b[5:7]) - int(a[5:7])
 
 
-def simulate(bars, alloc=1.0, all_at_once=False, start_index=0, one_episode=False, chart_from=None):
+def simulate(bars, alloc=1.0, all_at_once=False, start_index=0, one_episode=False, chart_from=None,
+             mid_exit_after=None):
     episodes, ep = [], None
     for i, b in enumerate(bars):
         if i < start_index or (one_episode and episodes):
@@ -159,9 +161,16 @@ def simulate(bars, alloc=1.0, all_at_once=False, start_index=0, one_episode=Fals
                 ep["path"].append((b["month"], ep["cash"] + ep["units"] * b["close"]))
             continue
         # exit check first: limit sell at the target
+        fill, why = None, None
         if b["high"] >= ep["target"]:
-            ep["exit"] = b["month"]
-            ep["final"] = ep["cash"] + ep["units"] * ep["target"]
+            fill, why = max(ep["target"], b["open"]), "all-time high"
+        elif (mid_exit_after is not None and months_apart(ep["start"], b["month"]) >= mid_exit_after
+              and b["high"] >= b["mid"]):
+            # Amendment 2: after 5 years, sell at the middle band (or the open if it opens above it).
+            fill, why = max(b["mid"], b["open"]), "middle band after 5 years"
+        if fill is not None:
+            ep["exit"], ep["exit_reason"], ep["exit_price"] = b["month"], why, fill
+            ep["final"] = ep["cash"] + ep["units"] * fill
             ep["path"].append((b["month"], ep["final"]))
             episodes.append(ep)
             ep = None
@@ -235,8 +244,17 @@ def run():
     for e in (plan + lump + plan_chart + lump_chart
               + [e for f in (fresh, fresh_chart) for v in f.values() for e in v["plan"] + v["all_at_once"]]):
         e["sp500_multiple"] = sp500_multiple(e["start"], e["exit"] or last)
+    plan_a2 = simulate(bars, chart_from=chart, mid_exit_after=60)
+    lump_a2 = simulate(bars, all_at_once=True, chart_from=chart, mid_exit_after=60)
+    fresh_a2 = {m: {"plan": simulate(bars, start_index=idx[m], one_episode=True, chart_from=chart, mid_exit_after=60),
+                    "all_at_once": simulate(bars, all_at_once=True, start_index=idx[m], one_episode=True,
+                                            chart_from=chart, mid_exit_after=60)}
+                for m in starts}
+    for e in plan_a2 + lump_a2 + [e for v in fresh_a2.values() for e in v["plan"] + v["all_at_once"]]:
+        e["sp500_multiple"] = sp500_multiple(e["start"], e["exit"] or last)
     out = {"data_through": last, "first_signal_possible": next(b["month"] for b in bars if b.get("vol_ratio") is not None),
            "entry_signal_months": signals, "plan": plan, "all_at_once": lump, "fresh_starts": fresh,
+           "amendment_2_mid_exit": {"plan": plan_a2, "all_at_once": lump_a2, "fresh_starts": fresh_a2},
            "amendment_1_chart_ath": {"plan": plan_chart, "all_at_once": lump_chart, "fresh_starts": fresh_chart},
            "current": {k: bars[-1].get(k) for k in ("month", "close", "lower", "mid", "upper", "vol_ratio")}}
     (HERE / "results.json").write_text(json.dumps(out, indent=2))

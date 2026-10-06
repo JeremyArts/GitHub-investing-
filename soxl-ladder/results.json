@@ -488,6 +488,745 @@
       ]
     }
   },
+  "amendment_2_mid_exit": {
+    "plan": [
+      {
+        "start": "2004-09",
+        "target": 23294.376580012395,
+        "cash": 0.0,
+        "units": 0.41059291861677627,
+        "buys": [
+          {
+            "month": "2004-09",
+            "price": 5.8534413401359275,
+            "amount": 0.25
+          },
+          {
+            "month": "2007-11",
+            "price": 3.2375268290653403,
+            "amount": 0.25
+          },
+          {
+            "month": "2008-04",
+            "price": 2.2142743007496404,
+            "amount": 0.25
+          },
+          {
+            "month": "2008-07",
+            "price": 1.4063925736150076,
+            "amount": 0.25
+          }
+        ],
+        "exit": "2010-01",
+        "exit_reason": "middle band after 5 years",
+        "exit_price": 0.6462535148287819,
+        "final": 0.26534711681989964,
+        "worst": -0.9374485755037464,
+        "worst_month": "2009-02",
+        "months": 64,
+        "months_underwater": 38,
+        "multiple": 0.26534711681989964,
+        "avg_cost": 2.435502305711566,
+        "sp500_multiple": 1.075217936129369
+      },
+      {
+        "start": "2018-10",
+        "target": 11.056075096130371,
+        "cash": 0.75,
+        "units": 0.03892637660568482,
+        "buys": [
+          {
+            "month": "2018-10",
+            "price": 6.422380447387695,
+            "amount": 0.25
+          }
+        ],
+        "exit": "2019-04",
+        "exit_reason": "all-time high",
+        "exit_price": 11.056075096130371,
+        "final": 1.180372942972704,
+        "worst": -0.04207020079431523,
+        "worst_month": "2018-12",
+        "months": 6,
+        "months_underwater": 1,
+        "multiple": 1.180372942972704,
+        "avg_cost": 6.422380447387695,
+        "sp500_multiple": 1.0976479705395683
+      },
+      {
+        "start": "2019-05",
+        "target": 12.077259063720703,
+        "cash": 0.75,
+        "units": 0.03672307262670398,
+        "buys": [
+          {
+            "month": "2019-05",
+            "price": 6.807709217071533,
+            "amount": 0.25
+          }
+        ],
+        "exit": "2019-07",
+        "exit_reason": "all-time high",
+        "exit_price": 12.077259063720703,
+        "final": 1.1935140617285342,
+        "worst": 0.0,
+        "worst_month": "2019-05",
+        "months": 2,
+        "months_underwater": 0,
+        "multiple": 1.1935140617285342,
+        "avg_cost": 6.807709217071532,
+        "sp500_multiple": 1.0858627863226011
+      },
+      {
+        "start": "2020-03",
+        "target": 17.724910736083984,
+        "cash": 0.75,
+        "units": 0.04086766462024863,
+        "buys": [
+          {
+            "month": "2020-03",
+            "price": 6.117305755615234,
+            "amount": 0.25
+          }
+        ],
+        "exit": "2020-09",
+        "exit_reason": "all-time high",
+        "exit_price": 17.724910736083984,
+        "final": 1.4743757073861246,
+        "worst": 0.0,
+        "worst_month": "2020-03",
+        "months": 6,
+        "months_underwater": 0,
+        "multiple": 1.4743757073861246,
+        "avg_cost": 6.117305755615234,
+        "sp500_multiple": 1.3130702614563814
+      },
+      {
+        "start": "2022-04",
+        "target": 65.95597839355469,
+        "cash": 0.25,
+        "units": 0.060196588929796874,
+        "buys": [
+          {
+            "month": "2022-04",
+            "price": 21.57217788696289,
+            "amount": 0.25
+          },
+          {
+            "month": "2022-06",
+            "price": 12.722969055175781,
+            "amount": 0.25
+          },
+          {
+            "month": "2022-09",
+            "price": 8.633167266845703,
+            "amount": 0.25
+          }
+        ],
+        "exit": "2024-07",
+        "exit_reason": "all-time high",
+        "exit_price": 65.95597839355469,
+        "final": 4.220324918819376,
+        "worst": -0.23031277887551116,
+        "worst_month": "2022-09",
+        "months": 27,
+        "months_underwater": 5,
+        "multiple": 4.220324918819376,
+        "avg_cost": 12.459177726410266,
+        "sp500_multiple": 1.3858312456416746
+      },
+      {
+        "start": "2025-03",
+        "target": 65.95597839355469,
+        "cash": 0.75,
+        "units": 0.01573840757050641,
+        "buys": [
+          {
+            "month": "2025-03",
+            "price": 15.8847074508667,
+            "amount": 0.25
+          }
+        ],
+        "exit": "2026-01",
+        "exit_reason": "all-time high",
+        "exit_price": 65.95597839355469,
+        "final": 1.7880420696692783,
+        "worst": -0.0594043925541069,
+        "worst_month": "2025-04",
+        "months": 10,
+        "months_underwater": 1,
+        "multiple": 1.7880420696692783,
+        "avg_cost": 15.884707450866697,
+        "sp500_multiple": 1.2492627907959757
+      }
+    ],
+    "all_at_once": [
+      {
+        "start": "2004-09",
+        "target": 23294.376580012395,
+        "cash": 0.0,
+        "units": 0.1708396722357481,
+        "buys": [
+          {
+            "month": "2004-09",
+            "price": 5.8534413401359275,
+            "amount": 1.0
+          }
+        ],
+        "exit": "2010-01",
+        "exit_reason": "middle band after 5 years",
+        "exit_price": 0.6462535148287819,
+        "final": 0.11040573865454928,
+        "worst": -0.9739735772969016,
+        "worst_month": "2009-02",
+        "months": 64,
+        "months_underwater": 38,
+        "multiple": 0.11040573865454928,
+        "avg_cost": 5.8534413401359275,
+        "sp500_multiple": 1.075217936129369
+      },
+      {
+        "start": "2018-10",
+        "target": 11.056075096130371,
+        "cash": 0.0,
+        "units": 0.15570550642273928,
+        "buys": [
+          {
+            "month": "2018-10",
+            "price": 6.422380447387695,
+            "amount": 1.0
+          }
+        ],
+        "exit": "2019-04",
+        "exit_reason": "all-time high",
+        "exit_price": 11.056075096130371,
+        "final": 1.7214917718908154,
+        "worst": -0.16828080317726102,
+        "worst_month": "2018-12",
+        "months": 6,
+        "months_underwater": 1,
+        "multiple": 1.7214917718908154,
+        "avg_cost": 6.422380447387695,
+        "sp500_multiple": 1.0976479705395683
+      },
+      {
+        "start": "2019-05",
+        "target": 12.077259063720703,
+        "cash": 0.0,
+        "units": 0.14689229050681593,
+        "buys": [
+          {
+            "month": "2019-05",
+            "price": 6.807709217071533,
+            "amount": 1.0
+          }
+        ],
+        "exit": "2019-07",
+        "exit_reason": "all-time high",
+        "exit_price": 12.077259063720703,
+        "final": 1.7740562469141372,
+        "worst": 0.0,
+        "worst_month": "2019-05",
+        "months": 2,
+        "months_underwater": 0,
+        "multiple": 1.7740562469141372,
+        "avg_cost": 6.807709217071532,
+        "sp500_multiple": 1.0858627863226011
+      },
+      {
+        "start": "2020-03",
+        "target": 17.724910736083984,
+        "cash": 0.0,
+        "units": 0.1634706584809945,
+        "buys": [
+          {
+            "month": "2020-03",
+            "price": 6.117305755615234,
+            "amount": 1.0
+          }
+        ],
+        "exit": "2020-09",
+        "exit_reason": "all-time high",
+        "exit_price": 17.724910736083984,
+        "final": 2.8975028295444982,
+        "worst": 0.0,
+        "worst_month": "2020-03",
+        "months": 6,
+        "months_underwater": 0,
+        "multiple": 2.8975028295444982,
+        "avg_cost": 6.117305755615234,
+        "sp500_multiple": 1.3130702614563814
+      },
+      {
+        "start": "2022-04",
+        "target": 65.95597839355469,
+        "cash": 0.0,
+        "units": 0.04635600564949672,
+        "buys": [
+          {
+            "month": "2022-04",
+            "price": 21.57217788696289,
+            "amount": 1.0
+          }
+        ],
+        "exit": "2024-07",
+        "exit_reason": "all-time high",
+        "exit_price": 65.95597839355469,
+        "final": 3.0574557070297046,
+        "worst": -0.5998008494050504,
+        "worst_month": "2022-09",
+        "months": 27,
+        "months_underwater": 14,
+        "multiple": 3.0574557070297046,
+        "avg_cost": 21.57217788696289,
+        "sp500_multiple": 1.3858312456416746
+      },
+      {
+        "start": "2025-03",
+        "target": 65.95597839355469,
+        "cash": 0.0,
+        "units": 0.06295363028202564,
+        "buys": [
+          {
+            "month": "2025-03",
+            "price": 15.8847074508667,
+            "amount": 1.0
+          }
+        ],
+        "exit": "2026-01",
+        "exit_reason": "all-time high",
+        "exit_price": 65.95597839355469,
+        "final": 4.152168278677113,
+        "worst": -0.2376175702164277,
+        "worst_month": "2025-04",
+        "months": 10,
+        "months_underwater": 1,
+        "multiple": 4.152168278677113,
+        "avg_cost": 15.884707450866697,
+        "sp500_multiple": 1.2492627907959757
+      }
+    ],
+    "fresh_starts": {
+      "2004-09": {
+        "plan": [
+          {
+            "start": "2004-09",
+            "target": 23294.376580012395,
+            "cash": 0.0,
+            "units": 0.41059291861677627,
+            "buys": [
+              {
+                "month": "2004-09",
+                "price": 5.8534413401359275,
+                "amount": 0.25
+              },
+              {
+                "month": "2007-11",
+                "price": 3.2375268290653403,
+                "amount": 0.25
+              },
+              {
+                "month": "2008-04",
+                "price": 2.2142743007496404,
+                "amount": 0.25
+              },
+              {
+                "month": "2008-07",
+                "price": 1.4063925736150076,
+                "amount": 0.25
+              }
+            ],
+            "exit": "2010-01",
+            "exit_reason": "middle band after 5 years",
+            "exit_price": 0.6462535148287819,
+            "final": 0.26534711681989964,
+            "worst": -0.9374485755037464,
+            "worst_month": "2009-02",
+            "months": 64,
+            "months_underwater": 38,
+            "multiple": 0.26534711681989964,
+            "avg_cost": 2.435502305711566,
+            "sp500_multiple": 1.075217936129369
+          }
+        ],
+        "all_at_once": [
+          {
+            "start": "2004-09",
+            "target": 23294.376580012395,
+            "cash": 0.0,
+            "units": 0.1708396722357481,
+            "buys": [
+              {
+                "month": "2004-09",
+                "price": 5.8534413401359275,
+                "amount": 1.0
+              }
+            ],
+            "exit": "2010-01",
+            "exit_reason": "middle band after 5 years",
+            "exit_price": 0.6462535148287819,
+            "final": 0.11040573865454928,
+            "worst": -0.9739735772969016,
+            "worst_month": "2009-02",
+            "months": 64,
+            "months_underwater": 38,
+            "multiple": 0.11040573865454928,
+            "avg_cost": 5.8534413401359275,
+            "sp500_multiple": 1.075217936129369
+          }
+        ]
+      },
+      "2007-11": {
+        "plan": [
+          {
+            "start": "2007-11",
+            "target": 23294.376580012395,
+            "cash": 0.0,
+            "units": 1.1439366603672978,
+            "buys": [
+              {
+                "month": "2007-11",
+                "price": 3.2375268290653403,
+                "amount": 0.25
+              },
+              {
+                "month": "2008-04",
+                "price": 2.2142743007496404,
+                "amount": 0.25
+              },
+              {
+                "month": "2008-07",
+                "price": 1.4063925736150076,
+                "amount": 0.25
+              },
+              {
+                "month": "2009-05",
+                "price": 0.3221426725329555,
+                "amount": 0.25
+              }
+            ],
+            "exit": "2013-01",
+            "exit_reason": "middle band after 5 years",
+            "exit_price": 0.47441415339708326,
+            "final": 0.5426997422680383,
+            "worst": -0.693955181179521,
+            "worst_month": "2009-02",
+            "months": 62,
+            "months_underwater": 58,
+            "multiple": 0.5426997422680383,
+            "avg_cost": 0.8741742743684058,
+            "sp500_multiple": 1.134269664397851
+          }
+        ],
+        "all_at_once": [
+          {
+            "start": "2007-11",
+            "target": 23294.376580012395,
+            "cash": 0.0,
+            "units": 0.30887774921967076,
+            "buys": [
+              {
+                "month": "2007-11",
+                "price": 3.2375268290653403,
+                "amount": 1.0
+              }
+            ],
+            "exit": "2013-01",
+            "exit_reason": "middle band after 5 years",
+            "exit_price": 0.47441415339708326,
+            "final": 0.1465359758992467,
+            "worst": -0.9529442853666946,
+            "worst_month": "2009-02",
+            "months": 62,
+            "months_underwater": 62,
+            "multiple": 0.1465359758992467,
+            "avg_cost": 3.2375268290653403,
+            "sp500_multiple": 1.134269664397851
+          }
+        ]
+      },
+      "2018-10": {
+        "plan": [
+          {
+            "start": "2018-10",
+            "target": 11.056075096130371,
+            "cash": 0.75,
+            "units": 0.03892637660568482,
+            "buys": [
+              {
+                "month": "2018-10",
+                "price": 6.422380447387695,
+                "amount": 0.25
+              }
+            ],
+            "exit": "2019-04",
+            "exit_reason": "all-time high",
+            "exit_price": 11.056075096130371,
+            "final": 1.180372942972704,
+            "worst": -0.04207020079431523,
+            "worst_month": "2018-12",
+            "months": 6,
+            "months_underwater": 1,
+            "multiple": 1.180372942972704,
+            "avg_cost": 6.422380447387695,
+            "sp500_multiple": 1.0976479705395683
+          }
+        ],
+        "all_at_once": [
+          {
+            "start": "2018-10",
+            "target": 11.056075096130371,
+            "cash": 0.0,
+            "units": 0.15570550642273928,
+            "buys": [
+              {
+                "month": "2018-10",
+                "price": 6.422380447387695,
+                "amount": 1.0
+              }
+            ],
+            "exit": "2019-04",
+            "exit_reason": "all-time high",
+            "exit_price": 11.056075096130371,
+            "final": 1.7214917718908154,
+            "worst": -0.16828080317726102,
+            "worst_month": "2018-12",
+            "months": 6,
+            "months_underwater": 1,
+            "multiple": 1.7214917718908154,
+            "avg_cost": 6.422380447387695,
+            "sp500_multiple": 1.0976479705395683
+          }
+        ]
+      },
+      "2019-05": {
+        "plan": [
+          {
+            "start": "2019-05",
+            "target": 12.077259063720703,
+            "cash": 0.75,
+            "units": 0.03672307262670398,
+            "buys": [
+              {
+                "month": "2019-05",
+                "price": 6.807709217071533,
+                "amount": 0.25
+              }
+            ],
+            "exit": "2019-07",
+            "exit_reason": "all-time high",
+            "exit_price": 12.077259063720703,
+            "final": 1.1935140617285342,
+            "worst": 0.0,
+            "worst_month": "2019-05",
+            "months": 2,
+            "months_underwater": 0,
+            "multiple": 1.1935140617285342,
+            "avg_cost": 6.807709217071532,
+            "sp500_multiple": 1.0858627863226011
+          }
+        ],
+        "all_at_once": [
+          {
+            "start": "2019-05",
+            "target": 12.077259063720703,
+            "cash": 0.0,
+            "units": 0.14689229050681593,
+            "buys": [
+              {
+                "month": "2019-05",
+                "price": 6.807709217071533,
+                "amount": 1.0
+              }
+            ],
+            "exit": "2019-07",
+            "exit_reason": "all-time high",
+            "exit_price": 12.077259063720703,
+            "final": 1.7740562469141372,
+            "worst": 0.0,
+            "worst_month": "2019-05",
+            "months": 2,
+            "months_underwater": 0,
+            "multiple": 1.7740562469141372,
+            "avg_cost": 6.807709217071532,
+            "sp500_multiple": 1.0858627863226011
+          }
+        ]
+      },
+      "2020-03": {
+        "plan": [
+          {
+            "start": "2020-03",
+            "target": 17.724910736083984,
+            "cash": 0.75,
+            "units": 0.04086766462024863,
+            "buys": [
+              {
+                "month": "2020-03",
+                "price": 6.117305755615234,
+                "amount": 0.25
+              }
+            ],
+            "exit": "2020-09",
+            "exit_reason": "all-time high",
+            "exit_price": 17.724910736083984,
+            "final": 1.4743757073861246,
+            "worst": 0.0,
+            "worst_month": "2020-03",
+            "months": 6,
+            "months_underwater": 0,
+            "multiple": 1.4743757073861246,
+            "avg_cost": 6.117305755615234,
+            "sp500_multiple": 1.3130702614563814
+          }
+        ],
+        "all_at_once": [
+          {
+            "start": "2020-03",
+            "target": 17.724910736083984,
+            "cash": 0.0,
+            "units": 0.1634706584809945,
+            "buys": [
+              {
+                "month": "2020-03",
+                "price": 6.117305755615234,
+                "amount": 1.0
+              }
+            ],
+            "exit": "2020-09",
+            "exit_reason": "all-time high",
+            "exit_price": 17.724910736083984,
+            "final": 2.8975028295444982,
+            "worst": 0.0,
+            "worst_month": "2020-03",
+            "months": 6,
+            "months_underwater": 0,
+            "multiple": 2.8975028295444982,
+            "avg_cost": 6.117305755615234,
+            "sp500_multiple": 1.3130702614563814
+          }
+        ]
+      },
+      "2022-04": {
+        "plan": [
+          {
+            "start": "2022-04",
+            "target": 65.95597839355469,
+            "cash": 0.25,
+            "units": 0.060196588929796874,
+            "buys": [
+              {
+                "month": "2022-04",
+                "price": 21.57217788696289,
+                "amount": 0.25
+              },
+              {
+                "month": "2022-06",
+                "price": 12.722969055175781,
+                "amount": 0.25
+              },
+              {
+                "month": "2022-09",
+                "price": 8.633167266845703,
+                "amount": 0.25
+              }
+            ],
+            "exit": "2024-07",
+            "exit_reason": "all-time high",
+            "exit_price": 65.95597839355469,
+            "final": 4.220324918819376,
+            "worst": -0.23031277887551116,
+            "worst_month": "2022-09",
+            "months": 27,
+            "months_underwater": 5,
+            "multiple": 4.220324918819376,
+            "avg_cost": 12.459177726410266,
+            "sp500_multiple": 1.3858312456416746
+          }
+        ],
+        "all_at_once": [
+          {
+            "start": "2022-04",
+            "target": 65.95597839355469,
+            "cash": 0.0,
+            "units": 0.04635600564949672,
+            "buys": [
+              {
+                "month": "2022-04",
+                "price": 21.57217788696289,
+                "amount": 1.0
+              }
+            ],
+            "exit": "2024-07",
+            "exit_reason": "all-time high",
+            "exit_price": 65.95597839355469,
+            "final": 3.0574557070297046,
+            "worst": -0.5998008494050504,
+            "worst_month": "2022-09",
+            "months": 27,
+            "months_underwater": 14,
+            "multiple": 3.0574557070297046,
+            "avg_cost": 21.57217788696289,
+            "sp500_multiple": 1.3858312456416746
+          }
+        ]
+      },
+      "2025-03": {
+        "plan": [
+          {
+            "start": "2025-03",
+            "target": 65.95597839355469,
+            "cash": 0.75,
+            "units": 0.01573840757050641,
+            "buys": [
+              {
+                "month": "2025-03",
+                "price": 15.8847074508667,
+                "amount": 0.25
+              }
+            ],
+            "exit": "2026-01",
+            "exit_reason": "all-time high",
+            "exit_price": 65.95597839355469,
+            "final": 1.7880420696692783,
+            "worst": -0.0594043925541069,
+            "worst_month": "2025-04",
+            "months": 10,
+            "months_underwater": 1,
+            "multiple": 1.7880420696692783,
+            "avg_cost": 15.884707450866697,
+            "sp500_multiple": 1.2492627907959757
+          }
+        ],
+        "all_at_once": [
+          {
+            "start": "2025-03",
+            "target": 65.95597839355469,
+            "cash": 0.0,
+            "units": 0.06295363028202564,
+            "buys": [
+              {
+                "month": "2025-03",
+                "price": 15.8847074508667,
+                "amount": 1.0
+              }
+            ],
+            "exit": "2026-01",
+            "exit_reason": "all-time high",
+            "exit_price": 65.95597839355469,
+            "final": 4.152168278677113,
+            "worst": -0.2376175702164277,
+            "worst_month": "2025-04",
+            "months": 10,
+            "months_underwater": 1,
+            "multiple": 4.152168278677113,
+            "avg_cost": 15.884707450866697,
+            "sp500_multiple": 1.2492627907959757
+          }
+        ]
+      }
+    }
+  },
   "amendment_1_chart_ath": {
     "plan": [
       {
@@ -698,6 +1437,8 @@
               }
             ],
             "exit": "2019-04",
+            "exit_reason": "all-time high",
+            "exit_price": 11.056075096130371,
             "final": 1.180372942972704,
             "worst": -0.04207020079431523,
             "worst_month": "2018-12",
@@ -722,6 +1463,8 @@
               }
             ],
             "exit": "2019-04",
+            "exit_reason": "all-time high",
+            "exit_price": 11.056075096130371,
             "final": 1.7214917718908154,
             "worst": -0.16828080317726102,
             "worst_month": "2018-12",
@@ -748,6 +1491,8 @@
               }
             ],
             "exit": "2019-07",
+            "exit_reason": "all-time high",
+            "exit_price": 12.077259063720703,
             "final": 1.1935140617285342,
             "worst": 0.0,
             "worst_month": "2019-05",
@@ -772,6 +1517,8 @@
               }
             ],
             "exit": "2019-07",
+            "exit_reason": "all-time high",
+            "exit_price": 12.077259063720703,
             "final": 1.7740562469141372,
             "worst": 0.0,
             "worst_month": "2019-05",
@@ -798,6 +1545,8 @@
               }
             ],
             "exit": "2020-09",
+            "exit_reason": "all-time high",
+            "exit_price": 17.724910736083984,
             "final": 1.4743757073861246,
             "worst": 0.0,
             "worst_month": "2020-03",
@@ -822,6 +1571,8 @@
               }
             ],
             "exit": "2020-09",
+            "exit_reason": "all-time high",
+            "exit_price": 17.724910736083984,
             "final": 2.8975028295444982,
             "worst": 0.0,
             "worst_month": "2020-03",
@@ -858,6 +1609,8 @@
               }
             ],
             "exit": "2024-07",
+            "exit_reason": "all-time high",
+            "exit_price": 65.95597839355469,
             "final": 4.220324918819376,
             "worst": -0.23031277887551116,
             "worst_month": "2022-09",
@@ -882,6 +1635,8 @@
               }
             ],
             "exit": "2024-07",
+            "exit_reason": "all-time high",
+            "exit_price": 65.95597839355469,
             "final": 3.0574557070297046,
             "worst": -0.5998008494050504,
             "worst_month": "2022-09",
@@ -908,6 +1663,8 @@
               }
             ],
             "exit": "2026-01",
+            "exit_reason": "all-time high",
+            "exit_price": 65.95597839355469,
             "final": 1.7880420696692783,
             "worst": -0.0594043925541069,
             "worst_month": "2025-04",
@@ -932,6 +1689,8 @@
               }
             ],
             "exit": "2026-01",
+            "exit_reason": "all-time high",
+            "exit_price": 65.95597839355469,
             "final": 4.152168278677113,
             "worst": -0.2376175702164277,
             "worst_month": "2025-04",

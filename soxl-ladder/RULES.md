@@ -39,3 +39,9 @@ from Apr 2010 on, the target is the highest close on the real SOXL chart; earlie
 synthetic history (no chart existed). Both versions are reported in results.json.
 Also added after the first run, as a reporting view only: the plan started fresh at each signal that
 comes 6+ months after the previous one.
+
+## Amendment 2 (2026-10-06, Jeremy's decision after seeing the first results — disclosed)
+- Sleeve cap: 20% of the Roth (about $2,000 today).
+- Exit: sell everything at the previous all-time high (Amendment 1 definition) if reached within
+  5 years of buy 1. From 60 months after buy 1, also sell in the first month whose range reaches the
+  20-month middle band: filled at the middle band, or at the month's open if it opens above it.
