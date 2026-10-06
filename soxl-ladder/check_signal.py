@@ -11,11 +11,15 @@ Usage: python check_signal.py
 
 import json
 import sys
+import tempfile
+from pathlib import Path
 
 import ladder as L
 
 
 def main():
+    # Download into a temporary folder so the committed data snapshot is never modified.
+    L.DATA = Path(tempfile.mkdtemp())
     L.fetch("SOXL")
     soxl = L.load("SOXL")
     daily = [(r["Date"], r["High"] * r["Adj Close"] / r["Close"], r["Low"] * r["Adj Close"] / r["Close"], r["Adj Close"])
